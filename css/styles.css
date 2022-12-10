@@ -26,15 +26,12 @@ body {
     justify-content: center;
     align-items: center;
     width: clamp(600px, 50vw, 50vw);
-    height: 65%;
+    height: clamp(25rem, 50vh, 50vh);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
     border-radius: 10px;
     min-height: 60%;
 }
-
-
-
 
 .image-container {
     width: 50%;
@@ -51,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: clamp(1em, 3vw, 1.8em);
+    padding: clamp(10px, 2vw, 2.5em) clamp(8px, 3vw, 2.5em);
 }
 
 .content-container .title {
@@ -62,8 +59,8 @@ body {
 .content-container h1 {
     font-family: 'Fraunces';
     margin: 0 1.8em 0 0 ;
-    font-size: clamp(0.5rem, 4vw, 2.0rem);
-    font-size: clamp(0.5rem, 5vh, 2.0rem);
+    font-size: clamp(6px, 5vw, 2.0rem);
+    font-size: clamp(6px, 5vh, 2.0rem);
     margin-bottom: clamp(0.4em,3vh,1em);
 }
 
@@ -73,7 +70,7 @@ body {
 
 .content-container p {
     font-family: "Montserrat";
-    font-size: clamp(6px, 3vh, 1rem);
+    font-size: clamp(15px, 3vw, 1rem);
 }
 
 
@@ -126,10 +123,10 @@ body {
     font-weight: bold;
     width: 100%;
     padding: 1em;
-    height: 70%;
+    height: clamp(0.5rem,2vh,2rem);
     border-radius: 5px;
     border: none;
-    font-size: clamp(5px, 2vw, 1rem);
+    font-size: clamp(20px, 2vw, 1rem);
 }
 
 .content-container button:hover {
